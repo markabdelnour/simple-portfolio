@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #808080;
+    padding: 10px;
+    display: flex;
+    align-items: center; 
+}
+
+.navbar {
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #808080; /* Gray background color */
+    padding: 10px; /* Adjust padding as needed */
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.section {
+    padding: 50px;
+}
+
+.gray-bg {
+    background-color: #f0f0f0;
+}
+
+.darkgray-bg {
+    background-color: #808080;
+}
+
+.white-bg {
+    background-color: white;
+}
+
+.about-content {
+    text-align: center;
+}
+
+.table-container {
+    max-width: 800px;
+    margin: 0 auto;
+    overflow-x: auto; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-container textarea {
+    height: 80px;
+}
+
+.form-container button {
+    background-color: #303464;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #0d3e67;
+}
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    flex: 1; /* Take up remaining space */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+.img-box {
+    width: 200px; 
+    margin-left: 50px; /* Adjust spacing between text and image */
+}
+
+.img-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.section {
+    padding: 50px;
+}
+
+.gray-bg {
+    background-color: #f0f0f0;
+}
+
+.white-bg {
+    background-color: white;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.message-form textarea {
+    resize: none;
+    width: 160px; 
+    height: 15px;
+    
+}
