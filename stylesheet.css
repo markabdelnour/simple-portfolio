@@ -16,9 +16,9 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #808080; /* Gray background color */
-    padding: 10px; /* Adjust padding as needed */
-    z-index: 1000; /* Ensure it appears above other content */
+    background-color: #808080; 
+    padding: 10px; 
+    z-index: 1000;
 }
 
 .navbar ul {
@@ -35,27 +35,27 @@ body {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    position: relative; /* Position relative for pseudo-elements */
+    position: relative; 
 }
 
 .navbar ul li a:hover {
-    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); /* White shadow on hover */
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); 
 }
 
 .navbar ul li a::after {
-    content: ''; /* Create pseudo-element for white line */
+    content: ''; 
     position: absolute;
-    bottom: -2px; /* Adjust distance from button */
+    bottom: -2px; 
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: transparent; /* Initially transparent */
-    transition: height 0.3s ease; /* Smooth transition for line */
+    background-color: transparent; 
+    transition: height 0.3s ease; 
 }
 
 .navbar ul li a:hover::after {
-    height: 4px; /* Increase line height on hover */
-    background-color: white; /* Make the line white when hovered */
+    height: 4px; 
+    background-color: white; 
 }
 
 
@@ -147,24 +147,24 @@ table th {
 }
 
 .text {
-    flex: 1; /* Take up remaining space */
+    flex: 1; 
     font-family: Arial, Helvetica, sans-serif;
     font-size: x-large;
 }
 
 .img-box {
-    width: 200px; /* Adjust the width of the photo */
-    margin-left: 10px; /* Adjust spacing between text and image */
-    position: relative; /* Position relative for shadow */
+    width: 200px; 
+    margin-left: 10px; 
+    position: relative; 
 }
 
 .img-box img {
     width: 100%;
     height: auto;
-    border-radius: 50%; /* Make the image round */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Circular shadow */
-    position: relative; /* Ensure shadow is behind the image */
-    z-index: 1; /* Ensure the image is above the shadow */
+    border-radius: 50%; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    position: relative; 
+    z-index: 1; 
 }
 
 
@@ -199,27 +199,27 @@ table th {
 }
 
 .contact-info-form {
-    width: 40%; /* Adjust width as needed */
-    width: 40%; /* Adjust width as needed */
+    width: 40%; 
+    width: 40%; 
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     background-color: lightgray;
-    border-radius: 8px; /* Add border radius for rounded corners */
-    padding: 20px; /* Add padding */
-    box-sizing: border-box; /* Ensure padding is included in the width */
-    margin-bottom: 50px; /* Add margin between the forms */
+    border-radius: 8px; 
+    padding: 20px;
+    box-sizing: border-box; 
+    margin-bottom: 50px; 
     margin-top: 50px;
     margin-left: 100px;
     
 }
 .message-form{
-    width: 40%; /* Adjust width as needed */
-    width: 40%; /* Adjust width as needed */
+    width: 40%; 
+    width: 40%; 
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     background-color: lightgray;
-    border-radius: 8px; /* Add border radius for rounded corners */
-    padding: 20px; /* Add padding */
-    box-sizing: border-box; /* Ensure padding is included in the width */
-    margin-bottom: 50px; /* Add margin between the forms */
+    border-radius: 8px; 
+    padding: 20px;
+    box-sizing: border-box; 
+    margin-bottom: 50px; 
     margin-top: 50px;
     margin-right: 100px;
 }
